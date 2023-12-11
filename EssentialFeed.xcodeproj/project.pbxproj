@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F4B6B83B2B26E83D0085D431 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B6B83A2B26E83D0085D431 /* HTTPClient.swift */; };
+		F4B6B83D2B26E8F50085D431 /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B6B83C2B26E8F50085D431 /* FeedItemsMapper.swift */; };
 		F4E2FC4B2B224CFD00A69752 /* EssentialFeed.docc in Sources */ = {isa = PBXBuildFile; fileRef = F4E2FC4A2B224CFD00A69752 /* EssentialFeed.docc */; };
 		F4E2FC512B224CFE00A69752 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E2FC462B224CFD00A69752 /* EssentialFeed.framework */; };
 		F4E2FC562B224CFE00A69752 /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E2FC552B224CFE00A69752 /* EssentialFeedTests.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		F4B6B83A2B26E83D0085D431 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		F4B6B83C2B26E8F50085D431 /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
 		F4E2FC462B224CFD00A69752 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E2FC492B224CFD00A69752 /* EssentialFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialFeed.h; sourceTree = "<group>"; };
 		F4E2FC4A2B224CFD00A69752 /* EssentialFeed.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EssentialFeed.docc; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 			children = (
 				F4E2FC932B240D0800A69752 /* RemoteFeedLoader.swift */,
 				F4B6B83A2B26E83D0085D431 /* HTTPClient.swift */,
+				F4B6B83C2B26E8F50085D431 /* FeedItemsMapper.swift */,
 			);
 			path = FeedAPI;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				F4E2FC942B240D0800A69752 /* RemoteFeedLoader.swift in Sources */,
 				F4B6B83B2B26E83D0085D431 /* HTTPClient.swift in Sources */,
 				F4E2FC632B22552700A69752 /* FeedLoader.swift in Sources */,
+				F4B6B83D2B26E8F50085D431 /* FeedItemsMapper.swift in Sources */,
 				F4E2FC612B224D1400A69752 /* FeedItem.swift in Sources */,
 				F4E2FC4B2B224CFD00A69752 /* EssentialFeed.docc in Sources */,
 			);
